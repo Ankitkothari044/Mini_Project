@@ -1,0 +1,99 @@
+
+body {
+  background-image: url("/static/image/bg.png");
+  font-family: Arial, sans-serif;
+  background-size: cover;
+}
+
+header {
+  background-color: #977458;
+  color: #161414;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #111010;
+  text-decoration: none;
+}
+
+.hero {
+
+  color: #110f0f;
+  padding: 100px;
+  text-align: center;
+}
+
+nav ul h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#review-form {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#review-input {
+  width: 400px;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#review-input:focus {
+  outline: none;
+  border: 2px solid #333;
+}
+
+#submit-btn {
+  background-color: #333;
+  color: #f8f4f4;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#submit-btn:hover {
+  background-color: #101010;
+}
+
+#result-item {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#result-item h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+#result-text {
+  background-color: #101010;
+  color: #f4f5f4;
+  border: none;
+  margin-top: auto;
+  padding: 20px 20px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+
+
+
+
